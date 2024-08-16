@@ -1,3 +1,7 @@
 chainlit
 python-dotenv
 openai
+langchain
+langchain-openai
+langchain-core
+langchain_community
