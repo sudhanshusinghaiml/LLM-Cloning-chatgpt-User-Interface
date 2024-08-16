@@ -10,7 +10,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.1.0"
 
-REPO_NAME = "End-to-End-Text-Summarization-using-Kubernetes"
+REPO_NAME = "LLM-Cloning-chatgpt-User-Interface"
 AUTHOR_USER_NAME = "sudhanshusinghaiml"
 SRC_REPO = "src"
 AUTHOR_EMAIL = "mailmeatss2112@gmail.com"
