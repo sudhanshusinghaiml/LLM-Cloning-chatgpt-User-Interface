@@ -6,6 +6,15 @@ import os
 from langchain_core.prompts import PromptTemplate
 from langchain_openai import OpenAI
 from langchain.chains import LLMChain
+from dotenv import load_dotenv, find_dotenv
+
+# Checking if the .env is loaded or not - Returns True
+_ = load_dotenv(find_dotenv())
+
+client = OpenAI()
+
+# Setting the Environment Variables
+client.api_key  = os.getenv('openai_api_key')
 
 custom_template = \
 """Question: {question}
